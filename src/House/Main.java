@@ -45,8 +45,6 @@ public class Main {
         houses.add(house3);
         houses.add(house4);
 
-
-
         System.out.println("\nПроверка contains:");
         System.out.println("Содержится ли дом 1: " + houses.contains(house4));
         System.out.println("Содержится ли дом 2: " + houses.contains(house3));
@@ -62,7 +60,6 @@ public class Main {
 
         // Проверка equals на наличие дома с гаражом и без гаража
         System.out.println("Содержится ли дом без учета гаража: " + houses.contains(house4));
-
 
     }
 

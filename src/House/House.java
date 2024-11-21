@@ -65,17 +65,16 @@ public class House {
             if (obj == null || getClass() != obj.getClass()) return false;
             House house = (House) obj;
             return floors == house.floors &&
-                    rooms == house.rooms&&
+                    rooms == house.rooms &&
                     garage == house.garage;
 
 
-
         }
+
         @Override
         public int hashCode() {
             return Objects.hash(floors, rooms, garage);
         }
-
 
 
     }
